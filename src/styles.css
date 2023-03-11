@@ -1,0 +1,68 @@
+body {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(161, 255, 206) 0%,
+    rgb(250, 255, 209) 90%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+.hero {
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.hero p {
+  font-size: 26px;
+  margin: 0;
+}
+
+.hero h1 {
+  font-size: 55px;
+}
+
+.contactMe {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(161, 255, 206) 0%,
+    rgb(250, 255, 209) 90%
+  );
+  padding: 20px 30px;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  text-decoration: none;
+  color: black;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px gray;
+  margin-top: 40px;
+}
+
+.contactMe:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(127, 250, 187) 0%,
+    rgb(237, 249, 149) 90%
+  );
+  transition: ease-in-out;
+  font-size: 17px;
+}
