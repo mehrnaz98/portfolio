@@ -139,7 +139,6 @@ p {
 }
 
 @media (max-width: 900px) {
-  #contact,
   .aboutMe {
     padding: 15px 0 30px 0;
     text-align: center;
@@ -148,15 +147,21 @@ p {
 
 #contact {
   font-family: var(--heading-font-family);
+  padding: 20px 200px 30px;
+  background: var(--branding-color);
+  margin-bottom: 20px;
   text-align: center;
   font-size: 25px;
-  padding-top: 40px;
-  padding-bottom: 30px;
 }
 
 .developer {
   color: rgb(5, 180, 87);
   font-size: 19px;
+}
+
+#homePage {
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px rgb(150, 150, 150);
 }
 
 #homePage:hover {
@@ -182,6 +187,21 @@ p {
   text-decoration: underline;
 }
 
+@media (max-width: 900px) {
+  #contact {
+    font-size: 20px;
+    padding: 15px 0 30px 0;
+    text-align: center;
+  }
+  #email:hover {
+    transition: ease-in-out;
+    font-size: 22px;
+    color: rgb(5, 180, 87);
+    text-decoration: underline;
+  }
+}
+
 .weather {
   margin-bottom: 30px;
+  margin-top: 30px;
 }
