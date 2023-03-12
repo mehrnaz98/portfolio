@@ -9,14 +9,14 @@
       content="The potfolio of Mehrnaz Eftekhari: Front-end developer"
     />
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
     <script
@@ -27,12 +27,37 @@
     <title>Portfolio</title>
   </head>
   <body>
+    <nav class="navbar sticky-top" style="background-color: #faffd1">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Mehrnaz</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="index.html"
+              >Home</a
+            >
+            <a class="nav-link" href="about.html">About me</a>
+            <a class="nav-link" href="about.html#contact">Contact me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
     <div class="hero">
       <p>Hello I'm</p>
       <h1>Mehrnaz Eftekhari</h1>
       <p>Front-end developer based in Iran</p>
       <br />
-      <a href="#" class="contactMe">Contact me</a>
+      <a href="about.html#contact" class="contactMe">Contact me</a>
     </div>
     <div class="featured">Featured with my best projects</div>
     <div class="container">
@@ -53,7 +78,9 @@
               Originating in India the beverage has gained worldwide popularity,
               becoming a feature in many coffee and tea houses.
             </p>
-            <a href="#" class="masalaButton" target="_blank">Learn more</a>
+            <a href="masala.html" class="masalaButton" target="_blank"
+              >Learn more</a
+            >
           </div>
         </div>
       </div>
@@ -63,7 +90,7 @@
             <h1>Weather App Project</h1>
             <p>
               The weather app provides weather conditions, relative humidity,
-              precipitation in different unites, wind speed in addition to a
+              precipitation in different unites, wind speed, in addition to a
               six-day weather forecast prediction.
             </p>
             <a href="#" class="weatherButton" target="_blank">Learn more</a>

@@ -49,6 +49,7 @@ p {
 }
 
 .contactMe {
+  font-family: var(--heading-font-family);
   background: var(--branding-color);
   padding: 20px 30px;
   display: block;
@@ -92,7 +93,9 @@ p {
 }
 
 .masalaButton,
-.weatherButton {
+.weatherButton,
+#homePage {
+  font-family: var(--heading-font-family);
   background: var(--branding-color);
   text-decoration: none;
   color: rgb(72, 71, 71);
@@ -123,4 +126,47 @@ p {
   .row-1 {
     margin-bottom: 50px;
   }
+}
+
+.aboutMe {
+  padding-top: 30px;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+  font-family: var(--default-font-family);
+  font-weight: normal;
+  line-height: 40px;
+}
+
+#contact {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.developer {
+  color: rgb(5, 180, 87);
+  font-size: 19px;
+}
+
+#homePage:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(173, 251, 210) 0%,
+    rgb(249, 255, 199) 90%
+  );
+  transition: ease-in-out;
+  font-size: 14px;
+  color: var(--secondary-color);
+}
+
+#email {
+  text-decoration: none;
+}
+
+#email:hover {
+  transition: ease-in-out;
+  font-size: 22px;
+  color: rgb(5, 180, 87);
+  text-decoration: underline;
 }
