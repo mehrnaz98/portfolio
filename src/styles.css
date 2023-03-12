@@ -1,9 +1,15 @@
-body {
-  background: radial-gradient(
+:root {
+  --branding-color: radial-gradient(
     circle at 10% 20%,
     rgb(161, 255, 206) 0%,
     rgb(250, 255, 209) 90%
   );
+  --secondary-color: #f9f7fe;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
+body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -17,18 +23,20 @@ h4,
 h5,
 h6 {
   color: black;
-  font-family: "Playfair Display", serif;
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: normal;
 }
 
 .hero {
   text-align: center;
-  padding: 160px 20px;
+  padding: 100px 20px;
+  background: var(--branding-color);
+  margin-bottom: 20px;
 }
 
 .hero p {
@@ -41,11 +49,7 @@ p {
 }
 
 .contactMe {
-  background: radial-gradient(
-    circle at 10% 20%,
-    rgb(161, 255, 206) 0%,
-    rgb(250, 255, 209) 90%
-  );
+  background: var(--branding-color);
   padding: 20px 30px;
   display: block;
   margin: 0 auto;
@@ -53,16 +57,61 @@ p {
   text-decoration: none;
   color: black;
   border-radius: 8px;
-  box-shadow: 5px 5px 5px gray;
+  box-shadow: 5px 5px 5px rgb(188, 187, 187);
   margin-top: 40px;
 }
 
 .contactMe:hover {
   background: radial-gradient(
     circle at 10% 20%,
-    rgb(127, 250, 187) 0%,
-    rgb(237, 249, 149) 90%
+    rgb(173, 251, 210) 0%,
+    rgb(249, 255, 199) 90%
   );
   transition: ease-in-out;
   font-size: 17px;
+}
+
+.featured {
+  text-align: center;
+  padding-bottom: 100px;
+  font-size: 13px;
+  color: gray;
+}
+
+.project-description {
+  padding: 100px 60px;
+}
+
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0 0 100px 0;
+    text-align: center;
+  }
+}
+
+.masalaButton,
+.weatherButton {
+  background: var(--branding-color);
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  padding: 14px 15px;
+  margin-top: 10px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 5px 5px 5px rgb(232, 232, 232);
+}
+
+.masalaButton:hover,
+.weatherButton:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(173, 251, 210) 0%,
+    rgb(249, 255, 199) 90%
+  );
+  transition: ease-in-out;
+  font-size: 15px;
 }
