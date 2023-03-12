@@ -81,6 +81,7 @@ p {
 
 .project-description {
   padding: 100px 60px;
+  text-align: justify;
 }
 
 @media (max-width: 900px) {
