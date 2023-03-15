@@ -94,6 +94,7 @@ p {
 
 .masalaButton,
 .weatherButton,
+.myProjectsButton,
 #homePage {
   font-family: var(--heading-font-family);
   background: var(--branding-color);
@@ -107,15 +108,16 @@ p {
   text-align: center;
   width: 150px;
   border-radius: 8px;
-  box-shadow: 5px 5px 5px rgb(232, 232, 232);
+  box-shadow: 5px 5px 5px rgb(150, 150, 150);
 }
 
 .masalaButton:hover,
-.weatherButton:hover {
+.weatherButton:hover,
+.myProjectsButton:hover {
   background: radial-gradient(
     circle at 10% 20%,
-    rgb(173, 251, 210) 0%,
-    rgb(249, 255, 199) 90%
+    rgb(151, 254, 199) 0%,
+    rgb(243, 250, 182) 90%
   );
   transition: ease-in-out;
   font-size: 15px;
@@ -126,6 +128,35 @@ p {
   .row-1 {
     margin-bottom: 50px;
   }
+}
+
+.aboutIntro {
+  text-align: center;
+  padding: 100px 20px;
+  background: var(--branding-color);
+  margin-bottom: 20px;
+}
+
+.aboutTitle {
+  font-size: 60px;
+}
+
+.aboutName {
+  font-size: 35px;
+}
+
+.aboutDescription {
+  font-size: 20px;
+}
+
+.myPhoto {
+  box-shadow: 5px 5px 5px rgb(150, 150, 150);
+}
+
+.moreAbout {
+  color: gray;
+  font-size: 33px;
+  text-align: center;
 }
 
 .aboutMe {
@@ -142,6 +173,27 @@ p {
   .aboutMe {
     padding: 15px 0 30px 0;
     text-align: center;
+  }
+
+  .aboutIntro {
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .aboutTitle {
+    font-size: 45px;
+  }
+
+  .aboutName {
+    font-size: 25px;
+  }
+
+  .aboutDescription {
+    font-size: 17px;
+  }
+
+  .moreAbout {
+    font-size: 25px;
   }
 }
 
@@ -161,7 +213,6 @@ p {
 
 #homePage {
   margin-top: 20px;
-  box-shadow: 5px 5px 5px rgb(150, 150, 150);
 }
 
 #homePage:hover {
@@ -199,9 +250,4 @@ p {
     color: rgb(5, 180, 87);
     text-decoration: underline;
   }
-}
-
-.weather {
-  margin-bottom: 30px;
-  margin-top: 30px;
 }
