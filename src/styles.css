@@ -58,7 +58,7 @@ p {
   text-decoration: none;
   color: rgb(72, 71, 71);
   border-radius: 8px;
-  box-shadow: 5px 5px 5px rgb(188, 187, 187);
+  box-shadow: 5px 5px 5px rgb(145, 143, 143);
   margin-top: 40px;
 }
 
@@ -68,7 +68,7 @@ p {
     rgb(173, 251, 210) 0%,
     rgb(249, 255, 199) 90%
   );
-  transition: ease-in-out;
+  transition: all 100ms ease-in-out;
   font-size: 17px;
   color: var(--secondary-color);
 }
@@ -116,10 +116,10 @@ p {
 .myProjectsButton:hover {
   background: radial-gradient(
     circle at 10% 20%,
-    rgb(151, 254, 199) 0%,
-    rgb(243, 250, 182) 90%
+    rgb(166, 255, 208) 0%,
+    rgb(248, 254, 195) 90%
   );
-  transition: ease-in-out;
+  transition: all 100ms ease-in-out;
   font-size: 15px;
   color: var(--secondary-color);
 }
@@ -221,7 +221,7 @@ p {
     rgb(173, 251, 210) 0%,
     rgb(249, 255, 199) 90%
   );
-  transition: ease-in-out;
+  transition: all 200ms ease-in-out;
   font-size: 15px;
   color: var(--secondary-color);
 }
@@ -232,7 +232,7 @@ p {
 }
 
 #email:hover {
-  transition: ease-in-out;
+  transition: all 200ms ease-in-out;
   font-size: 26px;
   color: rgb(5, 180, 87);
   text-decoration: underline;
