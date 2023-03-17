@@ -32,6 +32,10 @@ p {
   font-weight: normal;
 }
 
+.container {
+  display: block;
+}
+
 .hero {
   text-align: center;
   padding: 100px 20px;
@@ -122,12 +126,6 @@ p {
   transition: all 100ms ease-in-out;
   font-size: 15px;
   color: var(--secondary-color);
-}
-
-@media (min-width: 995px) {
-  .row-1 {
-    margin-bottom: 50px;
-  }
 }
 
 .contentIntro {
