@@ -130,22 +130,22 @@ p {
   }
 }
 
-.aboutIntro {
+.contentIntro {
   text-align: center;
   padding: 100px 20px;
   background: var(--branding-color);
   margin-bottom: 20px;
 }
 
-.aboutTitle {
+.contentTitle {
   font-size: 60px;
 }
 
-.aboutName {
+.contentHead-1 {
   font-size: 35px;
 }
 
-.aboutDescription {
+.contentHead-2 {
   font-size: 20px;
 }
 
@@ -175,20 +175,20 @@ p {
     text-align: center;
   }
 
-  .aboutIntro {
+  .contentIntro {
     padding-top: 20px;
     padding-bottom: 40px;
   }
 
-  .aboutTitle {
+  .contentTitle {
     font-size: 45px;
   }
 
-  .aboutName {
+  .contentHead-1 {
     font-size: 25px;
   }
 
-  .aboutDescription {
+  .contentHead-2 {
     font-size: 17px;
   }
 
@@ -250,4 +250,17 @@ p {
     color: rgb(5, 180, 87);
     text-decoration: underline;
   }
+}
+
+.imageSub {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.imageSub h5 {
+  font-family: var(--default-font-family);
+}
+
+.imageSub p {
+  color: gray;
 }
