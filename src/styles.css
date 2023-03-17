@@ -262,3 +262,7 @@ p {
 .imageWork p {
   color: gray;
 }
+
+.socialMedia {
+  text-align: center;
+}
