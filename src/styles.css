@@ -252,15 +252,15 @@ p {
   }
 }
 
-.imageSub {
+.imageWork {
   padding-top: 20px;
   text-align: center;
 }
 
-.imageSub h5 {
+.imageWork h5 {
   font-family: var(--default-font-family);
 }
 
-.imageSub p {
+.imageWork p {
   color: gray;
 }
