@@ -236,6 +236,18 @@ p {
   text-decoration: underline;
 }
 
+#socialMedia {
+  text-decoration: none;
+  font-family: var(--default-font-family);
+}
+
+#socialMedia:hover {
+  transition: all 200ms ease-in-out;
+  font-size: 22px;
+  color: rgb(5, 180, 87);
+  text-decoration: underline;
+}
+
 @media (max-width: 900px) {
   #contact {
     font-size: 20px;
@@ -243,11 +255,21 @@ p {
     text-align: center;
   }
   #email:hover {
-    transition: ease-in-out;
+    transition: all 200ms ease-in-out;
     font-size: 22px;
     color: rgb(5, 180, 87);
     text-decoration: underline;
   }
+  #socialMedia:hover {
+    transition: all 200ms ease-in-out;
+    font-size: 20px;
+    color: rgb(5, 180, 87);
+    text-decoration: underline;
+  }
+}
+
+.socialMedia {
+  text-align: center;
 }
 
 .imageWork {
@@ -261,8 +283,4 @@ p {
 
 .imageWork p {
   color: gray;
-}
-
-.socialMedia {
-  text-align: center;
 }
