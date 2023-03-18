@@ -52,6 +52,10 @@ p {
   font-size: 55px;
 }
 
+.navbar-brand:hover {
+  cursor: auto;
+}
+
 .contactMe {
   font-family: var(--heading-font-family);
   background: var(--branding-color);
