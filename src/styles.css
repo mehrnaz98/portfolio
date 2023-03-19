@@ -266,6 +266,8 @@ footer #email {
   text-align: center;
   color: gray;
   font-size: 14px;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .developer {
