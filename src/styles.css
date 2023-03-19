@@ -265,6 +265,12 @@ footer #email {
   font-size: 20px;
 }
 
+.open-sourced {
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
+
 .developer {
   color: rgb(5, 180, 87);
   font-size: 19px;
