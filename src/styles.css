@@ -91,7 +91,7 @@ p {
 
 @media (max-width: 900px) {
   .project-description {
-    padding: 0 0 100px 0;
+    padding: 0 15px 100px 15px;
     text-align: center;
   }
 }
