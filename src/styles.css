@@ -156,9 +156,12 @@ p {
 }
 
 .moreAbout {
+  font-family: var(--heading-font-family);
   color: gray;
   font-size: 33px;
   text-align: center;
+  color: var(--secondary-color);
+  text-shadow: 2px 5px 5px rgba(77, 77, 77, 0.292);
 }
 
 .aboutMe {
@@ -199,13 +202,67 @@ p {
   }
 }
 
-#contact {
+.contact-box {
   font-family: var(--heading-font-family);
   padding: 20px 200px 30px;
   background: var(--branding-color);
   margin-bottom: 20px;
   text-align: center;
   font-size: 25px;
+}
+
+.contact-box p {
+  font-size: 17px;
+  text-align: left;
+  padding-left: 154px;
+}
+
+.contact-box h1 {
+  text-align: left;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 150px;
+}
+
+.contact-box .contactMe {
+  font-size: 17px;
+}
+
+.contact-box .contactMe:hover {
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(173, 251, 210) 0%,
+    rgb(249, 255, 199) 90%
+  );
+  transition: all 200ms ease-in-out;
+  font-size: 19px;
+  color: var(--secondary-color);
+}
+
+.social-links {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  background: var(--branding-color);
+  padding: 10px 19px;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: all 100ms ease-in-out;
+}
+
+.fa-instagram:hover,
+.fa-github:hover,
+.fa-linkedin:hover {
+  color: gray;
+}
+
+footer #email {
+  color: black;
+  font-size: 20px;
 }
 
 .developer {
@@ -258,6 +315,17 @@ p {
     padding: 15px 0 30px 0;
     text-align: center;
   }
+
+  .contact-box h1,
+  .contact-box p {
+    padding: 0;
+    text-align: center;
+  }
+
+  .contact-box p {
+    margin-bottom: 0;
+  }
+
   #email:hover {
     transition: all 200ms ease-in-out;
     font-size: 22px;
